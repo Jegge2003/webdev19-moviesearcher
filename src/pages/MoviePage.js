@@ -1,7 +1,8 @@
 import React, { Component } from "react";
 import axios from "axios";
+import keys from "../config/keys";
 
-const key = " 506aedfa93887c247a6a21a27f261488";
+const key = keys.moviedb_API_KEY;
 const baseUrlWithKey = `https://api.themoviedb.org/3/movie/`;
 
 class MoviePage extends Component {
